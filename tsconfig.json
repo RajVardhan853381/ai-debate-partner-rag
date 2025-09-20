@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": false,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noEmitOnError": false,
+    "noImplicitReturns": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "include": [
+    "shared/src/**/*"
+  ],
+  "exclude": [
+    "frontend/**/*",
+    "backend/**/*",
+    "node_modules/**/*",
+    "dist/**/*",
+    "**/node_modules/**/*",
+    "**/*.js",
+    "**/drizzle.config.ts",
+    "**/schema.ts", 
+    "**/middleware/**/*",
+    "**/controllers/**/*",
+    "**/routes/**/*",
+    "**/services/**/*",
+    "**/db/**/*",
+    "backend/src/index.ts",
+    "backend/drizzle.config.ts",
+    "frontend-server.js"
+  ]
+}

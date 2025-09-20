@@ -1,0 +1,47 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "typescript.preferences.includePackageJsonAutoImports": "off",
+    "typescript.validate.enable": true,
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/*.cache": true,
+      "**/drizzle": true,
+      "backend/src/db/**": true,
+      "backend/src/controllers/**": true, 
+      "backend/src/middleware/**": true,
+      "backend/src/routes/**": true,
+      "backend/src/services/**": true,
+      "backend/drizzle.config.ts": true,
+      "backend/src/index.ts": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "backend/src/db/**": true,
+      "backend/src/controllers/**": true,
+      "backend/src/middleware/**": true, 
+      "backend/src/routes/**": true,
+      "backend/src/services/**": true
+    },
+    "typescript.exclude": [
+      "backend/src/db/**/*",
+      "backend/src/controllers/**/*",
+      "backend/src/middleware/**/*",
+      "backend/src/routes/**/*", 
+      "backend/src/services/**/*",
+      "backend/drizzle.config.ts",
+      "backend/src/index.ts"
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.vscode-typescript-next"
+    ]
+  }
+}
